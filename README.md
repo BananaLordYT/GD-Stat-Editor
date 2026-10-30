@@ -3,7 +3,7 @@ A mod for Geometry Dash where you can change your balances.
 # Inject the mod:
 
 # Windows Command Prompt: $gd = "C:\Program Files (x86)\Steam\steamapps\common\Geometry Dash"
-Invoke-WebRequest "https://drive.google.com/uc?export=download&id=1Dc3ZfJa55d1w3Jj-Jv_i7FrcBfBx3ALX" -OutFile "$gd\GDStatEditor.asi"
+Invoke-WebRequest "https://drive.google.com/uc?export=download&id=1pDX_8owVXJPfz9vAajwNq0Ah2Z-sEL5E" -OutFile "$gd\GDStatEditor.asi"
 Invoke-WebRequest "https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/latest/download/Ultimate-ASI-Loader_x64.zip" -OutFile "$env:TEMP\asi.zip"
 Expand-Archive "$env:TEMP\asi.zip" -DestinationPath "$env:TEMP\asi" -Force
 Copy-Item "$env:TEMP\asi\dinput8.dll" "$gd\XInput1_4.dll"
