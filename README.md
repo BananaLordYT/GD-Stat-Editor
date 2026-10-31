@@ -15,3 +15,5 @@ curl -L -o "$GD/GDStatEditor.asi" "https://drive.google.com/uc?export=download&i
 curl -L -o /tmp/asi.zip "https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/latest/download/Ultimate-ASI-Loader_x64.zip"
 unzip -o /tmp/asi.zip -d /tmp/asi && cp /tmp/asi/dinput8.dll "$GD/XInput1_4.dll"
 file "$GD/GDStatEditor.asi" 
+
+If you want better experience like saving then make sure to check out the saved addon: https://github.com/BananaLordYT/GD-Stat-Editor-Saver
