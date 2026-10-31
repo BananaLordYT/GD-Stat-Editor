@@ -18,3 +18,5 @@ file "$GD/GDStatEditor.asi"
 
 # Addons
 If you want better experience like saving then make sure to check out the saved addon: https://github.com/BananaLordYT/GD-Stat-Editor-Saver
+
+Not affiliated with RobTop Games.
