@@ -16,4 +16,5 @@ curl -L -o /tmp/asi.zip "https://github.com/ThirteenAG/Ultimate-ASI-Loader/relea
 unzip -o /tmp/asi.zip -d /tmp/asi && cp /tmp/asi/dinput8.dll "$GD/XInput1_4.dll"
 file "$GD/GDStatEditor.asi" 
 
+# Addons
 If you want better experience like saving then make sure to check out the saved addon: https://github.com/BananaLordYT/GD-Stat-Editor-Saver
